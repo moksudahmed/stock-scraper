@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 import pytz
 import scraper_engine
 # Define the start and end times in GMT+6 time zone
-start_time = datetime.now(pytz.timezone('Asia/Dhaka')).replace(hour=10, minute=30, second=0)
-end_time = datetime.now(pytz.timezone('Asia/Dhaka')).replace(hour=23, minute=00, second=0)
+start_time = datetime.now(pytz.timezone('Asia/Dhaka')).replace(hour=10, minute=20, second=0)
+end_time = datetime.now(pytz.timezone('Asia/Dhaka')).replace(hour=15, minute=00, second=0)
 
 # Function to execute the task
 def execute_task():
