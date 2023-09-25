@@ -62,6 +62,6 @@ def scrap():
             save_data.save(ls_dict, 'top20stock')
             print("Sucessfully saved top 20 stock data")
     except:
-        sys.exit("Faild to extract data")
+        sys.exit("Faild to extract top 20 stock data")
     return ls_dict
 

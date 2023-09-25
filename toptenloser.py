@@ -58,6 +58,6 @@ def scrap():
             save_data.save(ls_dict, 'toplooser')
             print("Sucessfully saved top losser data")
     except:
-        sys.exit("Faild to extract data")
+        sys.exit("Faild to extract top losser data")
     return ls_dict
 

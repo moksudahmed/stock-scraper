@@ -68,7 +68,7 @@ def scrap():
             save_data.save(ls_dict, 'stocks')                   
             print("Sucessfully saved all stock data")
     except:
-        sys.exit("Faild to extract data")
+        sys.exit("Faild to extract all stock data")
     return ls_dict
 
 def get_stock_details(trading_code):

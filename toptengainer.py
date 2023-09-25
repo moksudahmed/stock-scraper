@@ -57,6 +57,6 @@ def scrap():
             save_data.save(ls_dict, 'topgainer')
             print("Sucessfully saved top gainer data")
     except:
-        sys.exit("Faild to extract data Top giner")
+        sys.exit("Faild to extract data Top giner data")
     return ls_dict
 
